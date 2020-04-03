@@ -1,0 +1,3 @@
+Afin de moduler les couts de subsitutions, il suffit de rajouter en arguments de la class Ruler une matrice comportant les poids de subsitutions entre les caractères.
+Cela modifierait le code au niveau des lignes où on se déplace dans la matrice déja présente lors de sa construction (de facto, les +1 seraient remplacés par les valeurs de la matrice).
+Cela restreind néanmoins la classe à une utilisation pour avec des chaines de caractères liés à la nouvelle matrice, obtenir de nouveaux caractères oblige à rajouter de nouvelles valeurs à la matrice.
